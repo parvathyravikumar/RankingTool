@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!------Title of the page--------->
+<title>Ranking Tool</title>
+<!-----------Style sheets---------> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/rankingStyle.css">
+<!-----------Script files---------> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript" src="./js/rankingScript.js"></script>
+</head>
+<body>
+<!-----------Start Main header--------->
+<div class="header">
+  <p>Images of some fruits are listed below. Please rank the fruits according to your preference.</p>
+</div>
+<!-----------End Main header--------->
+<!-----------Start Sub header--------->
+<p class="sub-header">Please click each image below according to your preference.</p>
+<!-----------End Sub header--------->
+<!-----------Start Main Container--------->
+<div id="content" class="container mainwrap">
+<!-----------Start first row options--------->
+  <div class="container subwrap">
+      <div id="option1" class="options" onclick="setRank('option1')"></div>
+      <div id="option2" class="options" onclick="setRank('option2')"></div>
+      <div id="option3" class="options" onclick="setRank('option3')"></div>
+      <div id="option4" class="options" onclick="setRank('option4')"></div>
+      <div id="option5" class="options" onclick="setRank('option5')"></div>
+      <div id="option6" class="options" onclick="setRank('option6')"></div>
+  </div>  
+  <!-----------End first row options---------> 
+  <!-----------Start second row options---------> 
+  <div class="container subwrap">  
+      <div id="option7" class="options" onclick="setRank('option7')"></div>
+      <div id="option8" class="options" onclick="setRank('option8')"></div>
+      <div id="option9" class="options" onclick="setRank('option9')"></div>
+      <div id="option10" class="options" onclick="setRank('option10')"></div>
+  </div>
+  <!-----------End second row options---------> 
+</div>
+<!-----------End Main Container--------->
+<!-----------Start reset button---------> 
+<center><button type="button" id="reset" class="btn btn-primary reset">Reset</button></center>
+<!-----------End reset button---------> 
+</body>
+</html>

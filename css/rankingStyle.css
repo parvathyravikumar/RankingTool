@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+	background-color:#637dab;
+	font-size:large;
+	color:white;
+	text-align:center;
+	padding :10px;
+	}
+
+.sub-header{
+	font-style:italic;
+	font-size:large;
+	text-align:center;
+	margin:10px;
+			}
+.options{
+	width:150px;
+	height:150px;
+	border:1px solid #a3a3a3;
+	margin:10px;
+	float :left;
+	background-color:#fff;
+	border-radius:10px;
+		}
+/*--For zooming images--*/
+.options:hover{
+	 transform: scale(1.4);/*General*/
+	 -webkit-transform: scale(1.4);/*Safari,chrome*/
+     -moz-transform: scale(1.4);/*Mozila*/
+     -o-transform: scale(1.4);/*Opera*/
+	}
+#option1{
+	background:url('../images/apple.jpg') no-repeat;
+	}
+#option2{
+	background:url('../images/avacado.jpg') no-repeat;
+	}
+#option3{
+	background:url('../images/banana.jpg') no-repeat;
+	}
+#option4{
+	background:url('../images/cherry.jpg') no-repeat;
+	}
+#option5{
+	background:url('../images/kiwi.jpg') no-repeat;
+	}
+#option6{
+	background:url('../images/orange.jpg') no-repeat;
+	}
+#option7{
+	background:url('../images/strawberry.jpg') no-repeat;
+	}
+#option8{
+	background:url('../images/blueberry.jpg') no-repeat;
+	}
+#option9{
+	background:url('../images/Pineapple.jpg') no-repeat;
+	}
+#option10{
+	background:url('../images/watermelon.jpg') no-repeat;
+	}
+.mainwrap{
+	background-color:#F7F7F7;
+	padding:20px;
+	}
+.subwrap{
+	margin:0px 60px 0px 60px;
+	 }	
+.reset{
+	width:120px;
+	margin:20px;
+	}
